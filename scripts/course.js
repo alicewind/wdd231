@@ -98,21 +98,27 @@ wddLink.addEventListener("click", () => {
 
 function createCourseCard(filteredCourses) {
     const display = document.querySelector(".display");
+    const creditsDisplay = document.querySelector("#credits")
     display.innerHTML = "";
+
     filteredCourses.forEach(course => {
         let card = document.createElement("div");
         let name = document.createElement("h3");        
 
         if (course.completed) {
             card.classList.add("course", "completed");
-            name.textContent = `✓ ${course.subject} ${course.number}`;
-            card.appendChild(name);
+            name.textContent = `✓ ${course.subject} ${course.number}`;            
         } else {
             card.classList.add("course", "incomplete");
-            name.textContent = `${course.subject} ${course.number}`;
-            card.appendChild(name);
+            name.textContent = `${course.subject} ${course.number}`;            
         }
-
+        card.appendChild(name);
         display.appendChild(card);
     });
+
+    const totalCredits = filteredCourses.reduce(
+        (total, course) => total + course.credits, 0
+    );
+    
+    creditsDisplay.textContent = `The total credits for course listed above is ${totalCredits}`;
 }
