@@ -19,7 +19,8 @@
         rel="stylesheet">
 
     <script src="scripts/navigation.js" defer></script>
-
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 </head>
 
 <body>
@@ -32,20 +33,32 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Chamber Assignment</a></li>
+            <li><a href="#">Chamber Project</a></li>
             <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
     <main>
         <h1>Home</h1>
         <section>
-            <h2>ABOUT ME</h2>
+            <h2>About Me</h2>
+            <p>My name is Alice and I am a wife, mother of five, and grandma to four.
+            I have lived in Pleasant Grove, Utah, USA for the last 30 years. In 2019 I retired from a career in
+            Manufacturing Engineering to make time for family members who need extra care.
+            Now I am studying Software Development through BYU Pathway Worldwide. I love reading good books,
+            cooking yummy food, and rowing on the Great Salt Lake.</p>
         </section>
         <section>
-            <h2>STUDENT PHOTO</h2>
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Alice Wind">
         </section>
         <section>
-            <h2>WEB CERTIFICATE COURSES</h2>
+            <h2>Web Certificate Courses</h2>
+            <ul class="types">
+                <li><button type="button" id="all">All</button></li>
+                <li><button type="button" id="cse">CSE</button></li>
+                <li><button type="button" id="wdd">WDD</button></li>
+            </ul>
+            <div class="display"></div>
         </section>
     </main>
     <footer>
@@ -55,8 +68,8 @@
             <a href="https://www.instagram.com/gslrowing/?hl=en" target="_blank"><img src="images/instagram.svg" alt="instagram" width="16" height="16"></a>
             
         </div>
-        <p>copyright symbol and current year</p>
-        <p>Last Modified</p>
+        <p>&copy;<span id="currentyear"></span> &#10070; Alice Wind &#10070; Utah, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 
 </body>
