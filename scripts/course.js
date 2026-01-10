@@ -101,15 +101,16 @@ function createCourseCard(filteredCourses) {
     display.innerHTML = "";
     filteredCourses.forEach(course => {
         let card = document.createElement("div");
-        let name = document.createElement("h3");
-
-        name.textContent = `${course.subject} ${course.number}`;
-        card.appendChild(name);
+        let name = document.createElement("h3");        
 
         if (course.completed) {
             card.classList.add("course", "completed");
+            name.textContent = `✓ ${course.subject} ${course.number}`;
+            card.appendChild(name);
         } else {
             card.classList.add("course", "incomplete");
+            name.textContent = `${course.subject} ${course.number}`;
+            card.appendChild(name);
         }
 
         display.appendChild(card);

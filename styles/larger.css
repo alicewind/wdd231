@@ -22,7 +22,15 @@ header {
     display: flex;
 }
 
-}
 .navigation a {
     border: none;
+}
+
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    column-gap: 10px;
+}
 }
