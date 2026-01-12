@@ -129,7 +129,7 @@ section p {
     width: 100%;
     justify-content: center;
     font-size: 1.5rem;
-    background-color: #e76f51;
+    background-color: #264653;
     color: white;
     border: solid 1px #ddd;
     border-radius: 6px; 
@@ -148,11 +148,12 @@ section p {
 }
 
 div.course.completed {
-    background-color: #f4a261;
+    background-color: #e76f51;
 }
 
 div.course.incomplete {
-    background-color: #e76f51;
+    
+    background-color: #f4a261;
 }
 
 #credits {
