@@ -151,8 +151,7 @@ div.course.completed {
     background-color: #e76f51;
 }
 
-div.course.incomplete {
-    
+div.course.incomplete {    
     background-color: #f4a261;
 }
 
