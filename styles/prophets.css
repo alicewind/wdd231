@@ -1,0 +1,51 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #515192; 
+    font-family: sans-serif;   
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+main {
+    background-color: #dadaef;
+    padding: 1rem 0;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));    
+    background-color: #dadaef;
+    margin: 1rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+#cards section {
+    background-color: #f3efef;
+    border: solid 1px #515192;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#cards img {
+    margin-top: 1rem;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;    
+}
