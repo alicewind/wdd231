@@ -2,28 +2,59 @@
     "members": [
         {
             "name": "Taco Amigo",
-            "address": "239 E State Rd Pleasant Grove, UT 84062",
+            "address": "239 E State Rd, Pleasant Grove, UT 84062",
             "phoneNumber": "801-785-4718",
             "websiteUrl": "https://tacoamigo.com/",
             "imageFile": "images/taco-amigo.webp",
             "membLevel": 2
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "websiteUrl": "",
-            "imageFile": "",
-            "membLevel":null
+            "name": "Doterra",
+            "address": "389 S 1300 W, Pleasant Grove, UT 84062",
+            "phoneNumber": "800-411-8151",
+            "websiteUrl": "https://www.doterra.com/US/en",
+            "imageFile": "images/doterra.webp",
+            "membLevel": 3
         },
         {
-            "name": "",
-            "address": "",
-            "phoneNumber": "",
-            "websiteUrl": "",
-            "imageFile": "",
+            "name": "The Grid",
+            "address": "593 S Evermore Ln, Pleasant Grove, UT 84062",
+            "phoneNumber": "801-882-2981",
+            "websiteUrl": "https://thegrid.com/",
+            "imageFile": "images/the-grid.webp",
+            "membLevel": 2
+        },
+        {
+            "name": "The Purple Turtle",
+            "address": "85 E State Rd, Pleasant Grove, UT 84062",
+            "phoneNumber": "801-785-2444",
+            "websiteUrl": "https://purpleturtlediner.com/",
+            "imageFile": "images/purple-turtle.webp",
+            "membLevel": 1
+        },
+        {
+            "name": "The Fellas Barber Shop",
+            "address": "1809 W State St, A2 Pleasant Grove, Utah 84062",
+            "phoneNumber": "801-919-9818",
+            "websiteUrl": "https://thefellas.com/",
+            "imageFile": "images/the-fellas.webp",
+            "membLevel": 1
+        },
+        {
+            "name": "The Ruth and Nathan Hale Theater",
+            "address": "401 South Pleasant Grove Boulevard, Pleasant Grove, Utah 84062",
+            "phoneNumber": "801-226-8600",
+            "websiteUrl": "https://www.theruth.org/",
+            "imageFile": "images/the-ruth.webp",
             "membLevel": null
         },
-        
+        {
+            "name": "Asea",
+            "address": "1488 W Pleasant View Dr, Pleasant Grove, UT 84062",
+            "phoneNumber": "801-973-7499",
+            "websiteUrl": "https://www.aseaglobal.com/en-US/about",
+            "imageFile": "images/asea.webp",
+            "membLevel": 3
+        }
     ]
 }
