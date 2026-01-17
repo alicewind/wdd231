@@ -1,0 +1,29 @@
+{
+    "members": [
+        {
+            "name": "Taco Amigo",
+            "address": "239 E State Rd Pleasant Grove, UT 84062",
+            "phoneNumber": "801-785-4718",
+            "websiteUrl": "https://tacoamigo.com/",
+            "imageFile": "images/taco-amigo.webp",
+            "membLevel": 2
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "websiteUrl": "",
+            "imageFile": "",
+            "membLevel":null
+        },
+        {
+            "name": "",
+            "address": "",
+            "phoneNumber": "",
+            "websiteUrl": "",
+            "imageFile": "",
+            "membLevel": null
+        },
+        
+    ]
+}
