@@ -124,6 +124,7 @@ h1 {
     margin: 1rem;
     border-radius: 6px;
     box-shadow: 0px 6px 8px 0px var(--background-color);
+    min-height: 320px;
 }
 
 #cards.list {
@@ -142,6 +143,7 @@ h1 {
     border: 1px solid var(--secondary-color);
     padding: 10px;
     background-color: #eee;
+    min-height: auto;
 }
 
 #cards.list img {
