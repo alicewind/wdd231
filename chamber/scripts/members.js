@@ -42,9 +42,7 @@ const displayMembers = (members) => {
         image.setAttribute("loading", "lazy");
         image.setAttribute("width", "auto");
         image.setAttribute("height", "100");
-
-        card.classList.add("member-card");
-
+        
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(address);
