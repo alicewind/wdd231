@@ -4,7 +4,7 @@
         main,
         nav,
         footer {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
         }
     
@@ -29,7 +29,12 @@
             border: none;
         }
 
+        #cards.grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));            
+        }
 
+        
 
         footer {
             display: grid;

@@ -3,7 +3,7 @@
 }
 
 :root {
-    --primary-color: #52796f;
+    --primary-color: #369c82;
     --secondary-color: #2f3e46;
     --background-color: #cad2c5;
     --accent1-color: #354f52;
@@ -75,9 +75,85 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     font-weight: 600;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.menu button {
+    padding: .7rem 2rem;
+    border: .5px solid var(--accent1-color);
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.menu button:hover {
+    background-color: var(--background-color);
+    color: var(--accent2-color);
+}
+
+#cards a {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+#cards.grid {
+    display: block;    
+    margin: 1rem;
+}
+
+#cards.grid section {
+    border: 2px solid var(--background-color);
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 0px 6px 8px 0px var(--background-color);
+}
+
+#cards.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;    
+    padding: 1rem;
+    text-align: left;
+
+}
+
+#cards.list section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    background-color: #eee;
+}
+
+#cards.list img {
+    display: none;
+}
+
+#cards.list h2 {
+    margin-top: 0;
+}
+
+#cards p {
+    margin: 3px;
 }
 
 

@@ -55,3 +55,17 @@ const displayMembers = (members) => {
         cards.appendChild(card);
     });
 }
+
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+
+
+gridButton.addEventListener("click", () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+});
+
+listButton.addEventListener("click", () => {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+});
