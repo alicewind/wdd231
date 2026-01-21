@@ -159,11 +159,27 @@ h1 {
 }
 
 /* home page css */
+article {
+    display: block;    
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.events, .current-weather, .forecast {
+    background-color: var(--background-color);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
 .events h2, .current-weather h2, .forecast h2 {
     background-color: var(--primary-color);
     color: white;
     padding: 0 0 0 1rem;
-    margin-bottom: 20px;
+    margin: 0%;
+}
+
+.current-weather figure {
+    margin: 0%;
 }
 
 .current-weather #current-temp {
@@ -174,7 +190,7 @@ h1 {
 
 .current-weather p {
     margin: 0 0 0 1rem;
-    padding-top: .2rem;
+    padding: .2rem;
 }
 
 
