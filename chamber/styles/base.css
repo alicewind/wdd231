@@ -159,6 +159,18 @@ h1 {
 }
 
 /* home page css */
+.hero {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 article {
     display: block;    
     padding-bottom: 1.5rem;
@@ -183,6 +195,7 @@ article {
 .events {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
 }
 
 .events h2 {
@@ -209,6 +222,10 @@ article {
     padding: .2rem;
 }
 
+.forecast p {
+    font-weight: 700;
+    font-size: large;
+}
 
 /* home page css */
 

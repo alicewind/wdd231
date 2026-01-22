@@ -27,7 +27,7 @@
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <!-- <script src="scripts/members.js" defer></script> -->
+    <script src="scripts/spotlight.js" defer></script>
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/weather.js" defer></script>
 </head>
@@ -41,12 +41,18 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <img src="images/afcanyon.webp" alt="af-canyon" class="hero-image">
+            </picture>
+            <button>Join Us!</button>
+        </div>
         <h1>Home</h1>        
         <article>
             <div class="events">
@@ -82,9 +88,9 @@
             </div>
             <div class="forecast">
                 <h2>Weather Forecast</h2>
-                <p>Today: <span id="today"></span></p>
-                <p id="tomorrow"><span id="today"></span></p>
-                <p id="tom-plus-one"><span id="today"></span></p>
+                <p>Today: <span id="dayZero"></span></p>
+                <p id="dayOne"></p>
+                <p id="dayTwo"></p>
             </div>
         </article>
         <section class="spotlight">

@@ -2,6 +2,7 @@
     "members": [
         {
             "name": "Taco Amigo",
+            "tagLine": "Burritos & Burgers & So Much More!",
             "address": "239 E State Rd, Pleasant Grove, UT 84062",
             "phoneNumber": "801-785-4718",
             "websiteUrl": "https://tacoamigo.com/",
@@ -10,6 +11,7 @@
         },
         {
             "name": "Doterra",
+            "tagLine": "Empowering Wellness Worldwide",
             "address": "389 S 1300 W, Pleasant Grove, UT 84062",
             "phoneNumber": "800-411-8151",
             "websiteUrl": "https://www.doterra.com/US/en",
@@ -18,6 +20,7 @@
         },
         {
             "name": "The Grid",
+            "tagLine": "The Future of Entertainment",
             "address": "593 S Evermore Ln, Pleasant Grove, UT 84062",
             "phoneNumber": "801-882-2981",
             "websiteUrl": "https://thegrid.com/",
@@ -26,6 +29,7 @@
         },
         {
             "name": "The Purple Turtle",
+            "tagLine": "Old Fashioned Flavor",
             "address": "85 E State Rd, Pleasant Grove, UT 84062",
             "phoneNumber": "801-785-2444",
             "websiteUrl": "https://purpleturtlediner.com/",
@@ -34,6 +38,7 @@
         },
         {
             "name": "The Fellas Barber Shop",
+            "tagLine": "Giving Back is Built into Every Transaction",
             "address": "1809 W State St, A2 Pleasant Grove, Utah 84062",
             "phoneNumber": "801-919-9818",
             "websiteUrl": "https://thefellas.com/",
@@ -42,6 +47,7 @@
         },
         {
             "name": "The Ruth and Nathan Hale Theater",
+            "tagLine": "World Class Art, Local Talent",
             "address": "401 South PG Blvd., Pleasant Grove, Utah 84062",
             "phoneNumber": "801-226-8600",
             "websiteUrl": "https://www.theruth.org/",
@@ -50,6 +56,7 @@
         },
         {
             "name": "Asea",
+            "tagLine": "Power Your Potential",
             "address": "1488 W Pleasant View Dr, Pleasant Grove, UT 84062",
             "phoneNumber": "801-973-7499",
             "websiteUrl": "https://www.aseaglobal.com/en-US/about",
