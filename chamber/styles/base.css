@@ -172,10 +172,26 @@ article {
 }
 
 .events h2, .current-weather h2, .forecast h2 {
+    height: 56px;
     background-color: var(--primary-color);
     color: white;
     padding: 0 0 0 1rem;
     margin: 0%;
+    align-content: center;
+}
+
+.events {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.events h2 {
+    grid-column: 1/4;
+}
+
+.events p {
+    margin: 0 0 1rem;
+    padding: 3px;
 }
 
 .current-weather figure {

@@ -34,7 +34,11 @@
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));            
         }
 
-        
+    article {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 1rem;
+    }    
 
         footer {
             display: grid;
