@@ -242,6 +242,21 @@ article {
     font-size: large;
 }
 
+#spot-cards {
+    margin-bottom: 1rem;
+}
+
+.spot-card {
+    text-align: center;
+    border: solid 1px var(--accent2-color);
+    margin: 0 1rem 1rem;
+}
+
+.spot-card img {
+    max-width: 50%;
+    height: auto;
+}
+
 /* home page css */
 
 footer {
