@@ -160,6 +160,7 @@ h1 {
 
 /* home page css */
 .hero {
+    position: relative;
     width: 100%;
     margin: 0 auto;
 }
@@ -170,6 +171,20 @@ h1 {
     display: block;
 }
 
+.hero-btn {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    font-size: larger;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 6px 6px 8px 0px var(--accent1-color);
+    cursor: pointer;
+}
 
 article {
     display: block;    
