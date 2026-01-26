@@ -112,13 +112,41 @@ function createCourseCard(filteredCourses) {
             card.classList.add("course", "incomplete");
             name.textContent = `${course.subject} ${course.number}`;            
         }
+
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
+
         card.appendChild(name);
         display.appendChild(card);
+        
     });
 
     const totalCredits = filteredCourses.reduce(
         (total, course) => total + course.credits, 0
     );
+
+
     
     creditsDisplay.textContent = `The total credits for course listed above is ${totalCredits}`;
+}
+
+const courseDetails = document.querySelector("#course-details");
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    courseDetails.showModal();
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
 }
