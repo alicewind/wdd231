@@ -28,6 +28,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>    
     <script src="scripts/memberships.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
             <h2>Membership Application Form</h2>
             <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
             <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-            <label>Organization Title <input type="text" name="title" required autocomplete="organization-title" title="Only letters, hyphens, and spaces with 7 characters minimum" pattern="^[A-Za-z -]{7,}$"></label>
+            <label>Organization Title <input type="text" name="title" autocomplete="organization-title" title="Only letters, hyphens, and spaces with 7 characters minimum" pattern="^[A-Za-z -]{7,}$"></label>
             <label>Email <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email"
                     autocomplete="email"></label>
             <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel" title="A Phone Number with dashes"
@@ -60,14 +61,14 @@
             
             <div class="memb-level">
                 <div>Membership Level</div>
-                <label><input type="radio" name="radio" required value="np"> NP Membership (for non-profit organizations - No fee)</label>
-                <label><input type="radio" name="radio" required value="bronze"> Bronze Membership ($150)</label>
-                <label><input type="radio" name="radio" required value="silver"> Silver Membership ($250)</label>
-                <label><input type="radio" name="radio" required value="gold"> Gold Membership ($350)</label>            
+                <label><input type="radio" name="radio" value="np"> NP Membership (for non-profit organizations - No fee)</label>
+                <label><input type="radio" name="radio" value="bronze"> Bronze Membership ($150)</label>
+                <label><input type="radio" name="radio" value="silver"> Silver Membership ($250)</label>
+                <label><input type="radio" name="radio" value="gold"> Gold Membership ($350)</label>            
             </div>
 
             <label class="text-field"> Business or Organization Description <textarea name="description"></textarea></label>
-            <label class="timestamp"></label>
+            <input type="hidden" name="timestamp" id="timestamp">
 
             <input type="submit" value="Become a Member">
         </form>

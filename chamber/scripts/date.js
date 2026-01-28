@@ -5,3 +5,6 @@ const today = new Date();
 year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 document.getElementById("lastModified").innerHTML = document.lastModified;
+
+const timestampValue = today.toISOString();
+document.getElementById("timestamp").value = timestampValue;
