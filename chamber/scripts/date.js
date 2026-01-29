@@ -6,5 +6,5 @@ year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
-const timestampValue = today.toISOString();
+const timestampValue = today.toLocaleString();
 document.getElementById("timestamp").value = timestampValue;
