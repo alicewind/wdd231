@@ -257,8 +257,6 @@ article {
     height: auto;
 }
 
-/* home page css */
-
 /* join page css */
 
 .join-form {
@@ -328,7 +326,21 @@ article {
     margin-bottom: 20px;
 }
 
-/* join page css */
+/* thank you page css */
+#form-results {
+    background-color: var(--background-color);    
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
+#info, #form-results p {
+    margin-left: 1rem;
+}
+
+/* discover page css */
+
+
+/* discover page css */
 
 footer {
     
