@@ -329,7 +329,7 @@ article {
 .memb-levels {
     margin-left: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .memb-levels div div {
@@ -339,6 +339,10 @@ article {
     width: 100%;
     max-width: 400px;
     border-radius: 6px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2s ease-out .5s;
+    animation-fill-mode: forwards;
 }
 
 .memb-levels h3 {
@@ -357,6 +361,18 @@ article {
 #memb-details button {
     padding: 5px;
 }
+
+@keyframes fadeInUp {
+    from {
+    opacity: 0;
+    transform: translateY(20px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }   
+}
+
 /* thank you page css */
 #form-results {
     background-color: var(--background-color);    
