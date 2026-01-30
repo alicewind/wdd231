@@ -304,15 +304,15 @@ article {
 
 .join-form input[type="submit"] {
     border: solid 1px #bdb6b6;
-        border-radius: 5px;        
-        font-weight: 700;
-        width: 96%;
-        max-width: 400px;
-        padding: .8rem;
-        font-size: larger;
-        margin-bottom: 15px;
-        background-color: var(--primary-color);
-        color: white;
+    border-radius: 5px;        
+    font-weight: 700;
+    width: 96%;
+    max-width: 400px;
+    padding: .8rem;
+    font-size: larger;
+    margin-bottom: 15px;
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .join-form textarea {
@@ -326,6 +326,37 @@ article {
     margin-bottom: 20px;
 }
 
+.memb-levels {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.memb-levels div div {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+}
+
+.memb-levels h3 {
+    padding: 2rem;
+}
+
+#memb-details {
+    border: none;
+    border-radius: 6px;
+}
+
+#memb-details h2 {
+    border-bottom: solid 1px var(--background-color);
+}
+
+#memb-details button {
+    padding: 5px;
+}
 /* thank you page css */
 #form-results {
     background-color: var(--background-color);    
