@@ -405,8 +405,20 @@ article {
     "button";
 }
 
+#visit {
+    margin: 1rem;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
 #places-cards figure {
     margin: 0;
+    grid-area: image;
+    align-self: center;
 }
 
 #places-cards h2, 
@@ -420,8 +432,8 @@ article {
 }
 
 #places-cards figure img {
-    width: 80%;
-    grid-area: image;
+    width: 100%;
+    border-radius: 6px;
 }
 
 #places-cards p {
@@ -434,6 +446,9 @@ article {
 
 #places-cards button {
     grid-area: button;
+    margin-top: .8rem;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 #places-cards button {
@@ -449,8 +464,7 @@ article {
 
 /* discover page css */
 
-footer {
-    
+footer {    
     background-color: var(--accent2-color);
     padding: 1rem;    
     align-items: center;

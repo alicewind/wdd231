@@ -34,3 +34,32 @@ places.forEach(place => {
     cardsContainer.appendChild(card);
 
 });
+
+const visitKey = "last-visit";
+const visitDisplay = document.querySelector("#visit");
+
+const lastVisit = localStorage.getItem(visitKey);
+const now = new Date();
+
+if (visitDisplay) {
+    if (lastVisit) {
+        const previous = new Date(lastVisit);
+        const diffMs = now - previous;
+
+        const seconds = Math.floor(diffMs / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+
+        if (hours >= 24) {
+            visitDisplay.textContent = `You last visited ${days} days ago.`;
+        } else {
+            visitDisplay.textContent = `Back so soon! Awesome!`;            
+        } 
+    } else {
+        visitDisplay.textContent = "Welcome! Let us know if you have any questions.";
+    } 
+}
+
+localStorage.setItem(visitKey, now.toISOString());
+
