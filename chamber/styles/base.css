@@ -403,6 +403,10 @@ article {
     "description"
     "address"
     "button";
+} 
+
+.places h2 {
+    margin-left: 1rem;
 }
 
 #visit {
@@ -448,9 +452,6 @@ article {
     margin-top: .8rem;
     border-radius: 6px;
     cursor: pointer;
-}
-
-#places-cards button {
     background-color: var(--primary-color);
     color: white;
     font-weight: 700;
@@ -458,8 +459,6 @@ article {
     border: none;
     padding: 1rem;
 }
-
-
 
 /* discover page css */
 
