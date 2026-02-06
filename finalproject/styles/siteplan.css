@@ -1,0 +1,62 @@
+* {
+    font-family: Lato;
+}
+
+:root {
+    --primary-color: #333D29;
+    --secondary-color: #FFF;
+    --background-color: #DBD6C8;
+    --accent1-color: #B6AD90;
+    --accent2-color: #545D3F;
+}
+
+main {
+    margin-left: 1rem;
+    max-width: 1000px;
+}
+
+#prefix {
+    font-size: large;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: sacramento;
+}
+
+.formatting #primary {
+    color: var(--primary-color);
+    font-size: x-large;
+}
+
+.formatting #secondary {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: x-large;
+    padding: 10px 5px;
+}
+
+.formatting #background {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    font-size: x-large;
+    padding: 10px 5px;
+}
+
+.formatting #accent1 {
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    font-size: x-large;
+    padding: 10px 5px;
+}
+
+.formatting #accent2 {
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+    font-size: x-large;
+    padding: 10px 5px;
+}
+
+.formatting #lato {
+    font-size: x-large;
+}
