@@ -15,9 +15,10 @@ main {
     max-width: 1000px;
 }
 
-main h2 {
+#name, #font {
     font-family: sacramento;
     font-size: xx-large;
+    font-weight: 600;
 }
 
 .formatting #primary {
