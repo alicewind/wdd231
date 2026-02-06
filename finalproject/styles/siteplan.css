@@ -55,3 +55,7 @@ h1 {
 .formatting #lato {
     font-size: x-large;
 }
+
+.formatting img {
+    max-width: 100%;
+}
