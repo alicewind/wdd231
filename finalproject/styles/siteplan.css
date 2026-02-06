@@ -15,11 +15,6 @@ main {
     max-width: 1000px;
 }
 
-#prefix {
-    font-size: large;
-    font-weight: 700;
-}
-
 h1 {
     font-family: sacramento;
 }
