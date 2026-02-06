@@ -15,8 +15,9 @@ main {
     max-width: 1000px;
 }
 
-h1 {
+main h2 {
     font-family: sacramento;
+    font-size: xx-large;
 }
 
 .formatting #primary {
