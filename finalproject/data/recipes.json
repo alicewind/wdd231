@@ -1,0 +1,58 @@
+{
+    "recipes": [        
+        {
+            "name": "Chocolate Chip Cookies",
+            "servings": 24,
+            "ingredients": [
+                "2 1/4 cups all-purpose flour",
+                "1 teaspoon baking soda",
+                "1/2 teaspoon salt",
+                "3/4 cup granulated sugar",
+                "3/4 cup brown sugar, packed",
+                "1 cup butter, softened",
+                "2 large eggs",
+                "2 teaspoons vanilla extract",
+                "2 cups chocolate chips"
+            ],
+            "directions": [
+                "Preheat oven to 375°F (190°C).",
+                "In a bowl, combine flour, baking soda, and salt.",
+                "In a separate bowl, cream butter, granulated sugar, and brown sugar until fluffy.",
+                "Beat in eggs one at a time, then add vanilla.",
+                "Gradually mix in dry ingredients.",
+                "Stir in chocolate chips.",
+                "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+                "Bake for 9–11 minutes until golden brown.",
+                "Cool on wire racks before serving."
+            ]
+        },
+        {
+            "name": "Oatmeal Cookies",
+            "servings": 24,
+            "ingredients": [
+                "1 1/2 cups all-purpose flour",
+                "1 teaspoon baking soda",
+                "1/2 teaspoon salt",
+                "1 teaspoon ground cinnamon",
+                "1 cup butter, softened",
+                "1 cup brown sugar, packed",
+                "1/2 cup granulated sugar",
+                "2 large eggs",
+                "1 teaspoon vanilla extract",
+                "3 cups rolled oats"
+            ],
+            "directions": [
+                "Preheat oven to 350°F (175°C).",
+                "In a bowl, whisk together flour, baking soda, salt, and cinnamon.",
+                "In another bowl, cream butter and sugars until light and fluffy.",
+                "Add eggs and vanilla and mix well.",
+                "Gradually add dry ingredients to wet ingredients.",
+                "Stir in rolled oats until evenly distributed.",
+                "Drop spoonfuls of dough onto baking sheets.",
+                "Bake for 10–12 minutes until lightly golden.",
+                "Cool before serving."
+            ]
+        }
+        
+    ]
+}
