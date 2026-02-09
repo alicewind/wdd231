@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Home Corner Market</title>
+    <meta name="description"
+        content="Home page for Home Corner Market, a website dedicated to helping you turn your pantry into a grocery store of home storage based on the recipes you love and the items you actually use.">
+    <meta name="author" content="Alice Wind">
+    <meta property="og:title" content="Home Corner Market home page">
+    <meta property="og:description"
+        content="Welcome to Home Corner Market, where we help you create a personalized home food and supply storage.">
+    <meta property="og:image" content="https://alicewind.github.io/wdd231/finalproject/images/pantry1.webp">
+    <meta property="og:url" content="https://alicewind.github.io/wdd231/finalproject/index.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+
+    <script type="module" src="scripts/project.mjs"></script>
+</head>
+
+<body>
+    <header>        
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <span>Home Corner Market</span>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">The Basics</a></li>
+            <li><a href="#">Getting Started</a></li>            
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <img src="images/holding-bread.webp" alt="holding bread" class="hero-image" width="1200" height="478">
+        </div>
+        <h1>Welcome</h1>
+        
+    </main>
+    <footer>
+        <div class="contact">            
+            <p>300 W Center St</p>
+            <p>Pleasant Grove, UT 84062</p>
+            <p>contact@hcm.com</p>
+            <p>(801)-555-1234</p>
+        </div>
+        <div class="social">
+            <a href="https://github.com/alicewind" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+            <a href="https://www.linkedin.com/in/alice-wind" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin" width="16" height="16"></a>
+            
+        </div>
+        <div class="personal">
+            <p>WDD231 Class Project</p>
+            <p>Alice Wind</p>
+            <p>&copy;<span id="currentyear"></span> Home Corner Market</p>
+            <a href="references.html" id="references">Attributions Link</a>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

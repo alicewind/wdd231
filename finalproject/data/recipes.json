@@ -142,7 +142,7 @@
                 "Core, peel, and puree tomatoes; bring to a boil in a large stock pot.",
                 "Season tomato juice to taste.",
                 "Raw pack meat and vegetables into jars 3/4 full.",
-                "Ladle tomato juice over contents, leaving 1 inch headspace.",
+                "Ladle hot tomato juice over contents, leaving 1 inch headspace.",
                 "Process quarts for 1 hour 15 minutes or pints for 1 hour at 13 lbs pressure."
             ]
         },
@@ -166,7 +166,7 @@
                 "1 teaspoon vanilla"
             ],
             "directions": [
-                "Mix cake ingredients and pour into a greased 9x13 pan.",
+                "Mix cake ingredients (ending with cinnamon) and pour into a greased 9x13 pan.",
                 "Bake at 350°F for 30 minutes.",
                 "For sauce, cook flour, sugar, and water until thickened.",
                 "Remove from heat and stir in butter and vanilla.",
@@ -191,7 +191,7 @@
             ],
             "directions": [
                 "Preheat oven to 325°F.",
-                "Combine filling ingredients and pour into a 9x13 pan.",
+                "Combine filling ingredients (starting with eggs) and pour into a 9x13 pan.",
                 "Sprinkle dry cake mix evenly on top.",
                 "Drizzle melted butter over cake mix.",
                 "Sprinkle brown sugar on top.",
@@ -258,7 +258,7 @@
                 "1 tablespoon baking powder"
             ],
             "directions": [
-                "Blend water, wheat kernels, and dry milk for 3 minutes.",
+                "In blender, mix water, wheat kernels, and dry milk for 3 minutes.",
                 "Add egg, fat, sweetener, and salt; blend 20 seconds.",
                 "Add baking powder and pulse to mix.",
                 "Cook immediately on hot griddle."
@@ -324,6 +324,7 @@
                 "Add oil, then dry ingredients.",
                 "Knead for 5 minutes.",
                 "Rest 30 minutes, then stretch and fold.",
+                "Rest 30 more minutes",
                 "Divide and shape into balls.",
                 "Rise 3–5 hours until doubled."
             ]
