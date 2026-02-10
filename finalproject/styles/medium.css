@@ -32,6 +32,14 @@
         border: none;
     }
 
+    .values {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+
     .app {
         display: grid;
         grid-template-columns: 2fr 1fr;
