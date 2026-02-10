@@ -32,6 +32,29 @@
         border: none;
     }
 
+    .app {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .app h2 {
+        grid-row: 1/2;
+        text-align: center;
+        align-content: center;
+    }
+
+    .app p {
+        grid-row: 2/3;
+        text-align: left;
+    }
+
+    .app img {
+        grid-column: 2/3;
+        grid-row: 1/3;
+
+    }
 
     footer {
         display: grid;
@@ -39,4 +62,11 @@
         align-items: center;
     }
 
+    footer .personal {
+        text-align: right;
+    }
+
+    .social {
+        justify-content: center;
+    }
 }

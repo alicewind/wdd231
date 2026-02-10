@@ -115,21 +115,43 @@ main {
     color: var(--primary-color);
 }
 
+.welcome {
+    display: block;
+}
+
+.welcome p {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.app {
+    display: block;
+    max-width: 900px;
+    padding: 1rem;
+}
+
+.app p, .app img {
+    margin: 0 auto;
+}
+
 
 footer {
-    background-color: var(--primary-color);
-    padding: 1rem;
+    display: block;
+    background-color: var(--primary-color);    
     align-items: center;
     color: var(--secondary-color);
     font-weight: 600;
+    max-width: 1200px;
 }
 
 footer .contact {
-    padding-bottom: 1.5rem;
+    padding: 1.5rem;
 }
 
 footer .personal {
-    padding: 1.5rem 0;
+    padding: 1.5rem;
 }
 
 footer p {
@@ -140,7 +162,8 @@ footer p {
 .social {
     display: flex;
     column-gap: 8px;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 1.5rem;
 }
 
 .social a {
