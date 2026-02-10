@@ -1,6 +1,4 @@
-
-
-const values = [
+export const values = [
     {
         value: 'GENEROSITY',
         description: 'We build a storehouse not only for our time of need, but also to help others in their time of need, recognizing how abundantly we have been blessed.'
