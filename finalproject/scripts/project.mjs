@@ -29,13 +29,16 @@ const lastSubmission = localStorage.getItem(submissionKey);
 
 if (submissionDisplay) {
     if (lastSubmission) {
-        submissionDisplay.textContent = `Your last submitted question or comment was on ${lastSubmission}.`;
+        submissionDisplay.textContent = `*Your last submitted question or comment was on ${lastSubmission}.`;
     } else {
-        submissionDisplay.textContent = `You have no previous question or comment submissions.`;
+        submissionDisplay.textContent = `*You have no previous question or comment submissions.`;
     }    
 }
 
 const submissionButton = document.querySelector("#submit-info")
-submissionButton.addEventListener('click', () => {
-    localStorage.setItem(submissionKey, today.toDateString());
-});
+if (submissionButton) {
+    submissionButton.addEventListener('click', () => {
+        localStorage.setItem(submissionKey, today.toDateString());
+    });
+}
+
