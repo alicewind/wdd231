@@ -1,6 +1,6 @@
-//import { values } from '../data/values.mjs'
+import { values } from '../data/values.mjs'
 
-const values = [
+/*const values = [
     {
         name: 'GENEROSITY',
         description: 'We build a storehouse not only for our time of need, but also to help others in their time of need, recognizing how abundantly we have been blessed.'
@@ -17,7 +17,8 @@ const values = [
         name: 'CUSTOMIZATION',
         description: 'What items you store should not be chosen by someone else. Home storage that is personalized to your preferences, lifestyle, and family needs will be the most useful and sustainable.'
     }
-]
+]*/
+
 createValueCard(values);
 
 function createValueCard(values) {

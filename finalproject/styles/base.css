@@ -233,7 +233,7 @@ main {
     display: none;
 }
 
-.form-response {
+#form-results {
     max-width: 1500px;
     width: 90%;
     margin: 0 auto;
