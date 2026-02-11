@@ -41,9 +41,31 @@
         </ul>
     </nav>
     <main>
-        
-        <h1>The Basics</h1>
-
+        <div class="hero">
+            <img src="images/pantry.webp" alt="holding bread" class="hero-image" width="1200" height="478">
+        </div>
+        <section class="basics">        
+            <h1>The Basics</h1>
+            <div class="basic-info"></div>
+        </section>
+        <section class="questions">
+            <h2>Have Questions or Comments?</h2>
+            <form method="get" action="query-response.html" class="question-form">                
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Email*<input type="email" name="email" placeholder="someone@example.com" required></label>
+                <label>Phone Number<input type="tel" name="phone" placeholder="1235551234"></label>
+                <div>Topics of Interest (check all that apply):</div>
+                <label><input type="checkbox" name="app" value="yes"> Home Corner Market App</label>
+                <label><input type="checkbox" name="suggested" value="yes"> Food or Non-food Suggested Items</label>
+                <label><input type="checkbox" name="recipes" value="yes"> Recipes</label>
+                <label><input type="checkbox" name="tips" value="yes"> Tips for Getting Started</label>                
+                <label class="text-field" for="comment">Leave a Question or Comment</label>
+                <textarea id="comment" name="comment"></textarea>
+                <input type="submit" value="Send Information">
+                <div class="submission"></div>
+            </form>
+            <img src="images/question-dog.webp" alt="question dog" loading="lazy" width="300" height="400">
+        </section>
     </main>
     <footer>
         <div class="contact">
