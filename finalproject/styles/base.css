@@ -149,7 +149,8 @@ main {
     width: 100%;
     max-width: 300px;
     border-radius: 6px;
-    margin: 0 auto;     
+    margin: 0 auto; 
+    cursor: pointer;    
 }
 
 .our-values h3 {
