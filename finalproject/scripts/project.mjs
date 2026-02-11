@@ -22,3 +22,20 @@ if (timestamp) {
     timestamp.value = today.toLocaleString();
 }
 
+const submissionKey = "last-submission";
+const submissionDisplay = document.querySelector("#submission")
+
+const lastSubmission = localStorage.getItem(submissionKey);
+
+if (submissionDisplay) {
+    if (lastSubmission) {
+        submissionDisplay.textContent = `Your last submitted question or comment was on ${lastSubmission}.`;
+    } else {
+        submissionDisplay.textContent = `You have no previous question or comment submissions.`;
+    }    
+}
+
+const submissionButton = document.querySelector("#submit-info")
+submissionButton.addEventListener('click', () => {
+    localStorage.setItem(submissionKey, today.toDateString());
+});
