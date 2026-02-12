@@ -26,6 +26,8 @@
     <link rel="icon" href="favicon.ico">
 
     <script type="module" src="scripts/project.mjs"></script>
+    <script type="module" src="scripts/output.mjs"></script>
+
 </head>
 
 <body>
@@ -46,23 +48,23 @@
         <section class="recipes">
             <h2>Sample Recipes</h2>
             <ul class="types">
-                <li><button class="all-button" type="submit" id="all">
+                <li><button class="all-button" type="button" id="all">
                     All Recipes
                 </button></li>
-                <li><button class="main-button" type="submit" id="main">
+                <li><button class="main-button" type="button" id="main">
                         Main Dishes
                     </button></li>
-                <li><button class="dessert-button" type="submit" id="dessert">
+                <li><button class="dessert-button" type="button" id="dessert">
                         Desserts
                     </button></li>
-                <li><button class="bread-button" type="submit" id="bread">
+                <li><button class="bread-button" type="button" id="bread">
                         Breads
                     </button></li>
-                <li><button class="snack-button" type="submit" id="snack">
+                <li><button class="snack-button" type="button" id="snack">
                         Snacks
                     </button></li>
             </ul>
-            <div class="display"></div>
+            <div class="display" id="cards"></div>
         </section>
     </main>
     <footer>
