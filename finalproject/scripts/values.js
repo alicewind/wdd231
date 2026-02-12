@@ -1,24 +1,31 @@
-import { values } from '../data/values.mjs'
+const jsonFilepath = 'data/values.json';
+const cards = document.querySelector(".values");
 
-createValueCard(values);
+async function getValuesData(jsonFilepath) {
+    const response = await fetch(
+        jsonFilepath);
+    const data = await response.json();
+    displayValues(data.values);
+}
 
-function createValueCard(values) {
-    const displayValue = document.querySelector(".values");
+getValuesData(jsonFilepath);
 
-    values.forEach(value => {
-        let card = document.createElement("div");
+const displayValues = (values) => {
+    values.forEach((value) => {
+
+        let card = document.createElement("div");        
         let name = document.createElement("h3");
 
-        name.textContent = `${value.name}`;
+        name.textContent = value.name;
 
-        card.addEventListener('click', () => {
+        card.appendChild(name);        
+
+        card.addEventListener("click", () => {
             displayValueDetails(value);
         });
 
-        card.appendChild(name)
-        displayValue.appendChild(card);
-    })
-
+        cards.appendChild(card);
+    });
 }
 
 const valueDetails = document.querySelector("#value-details");
