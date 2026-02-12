@@ -117,10 +117,10 @@ main {
 
 .welcome {
     display: block;
+    margin: 1rem;
 }
 
 .welcome p {
-    text-align: center;
     max-width: 900px;
     margin: 0 auto;
     padding: 1rem;
@@ -289,6 +289,17 @@ main {
 }
 
 /* Getting Started Page */
+
+.start {
+    margin: 1rem;
+    text-align: left;
+    max-width: 900px;    
+}
+
+.start p,
+.start li {
+    padding: .5rem 0;
+}
 
 .recipes {
     margin: 1rem;
