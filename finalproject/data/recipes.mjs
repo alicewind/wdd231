@@ -2,6 +2,7 @@ export const recipes = [
         {
             "name": "Chocolate Chip Cookies",
             "servings": 24,
+            "keyword": "dessert",
             "ingredients": [
                 "2 1/4 cups all-purpose flour",
                 "1 teaspoon baking soda",
@@ -28,6 +29,7 @@ export const recipes = [
         {
             "name": "Oatmeal Cookies",
             "servings": 24,
+            "keyword": "dessert",
             "ingredients": [
                 "1 1/2 cups all-purpose flour",
                 "1 teaspoon baking soda",
@@ -56,6 +58,7 @@ export const recipes = [
         {
             "name": "Chili Chicken Casserole",
             "servings": 6,
+            "keyword": "main",
             "ingredients": [
                 "2 cups cooked chicken",
                 "1 (4 oz) can diced green chiles",
@@ -78,6 +81,7 @@ export const recipes = [
         {
             "name": "Pasta with Red Pepper Cream Sauce",
             "servings": 6,
+            "keyword": "main",
             "ingredients": [
                 "3/4 cup chicken broth",
                 "2 cups heavy cream",
@@ -96,6 +100,7 @@ export const recipes = [
         {
             "name": "Poppy Seed Chicken",
             "servings": 8,
+            "keyword": "main",
             "ingredients": [
                 "2 cups cooked chicken breasts, cubed",
                 "1 cup sour cream",
@@ -117,6 +122,7 @@ export const recipes = [
         {
             "name": "Bottled Beef Vegetable Soup",
             "servings": "3 per quart jar",
+            "keyword": "main",
             "ingredients": [
                 "Tomatoes",
                 "Potatoes",
@@ -148,6 +154,7 @@ export const recipes = [
         {
             "name": "Applesauce Cake",
             "servings": 12,
+            "keyword": "dessert",
             "ingredients": [
                 "2/3 cup shortening",
                 "1 1/2 cups sugar",
@@ -175,6 +182,7 @@ export const recipes = [
         {
             "name": "Teri's Killer Pumpkin Dessert",
             "servings": 12,
+            "keyword": "dessert",
             "ingredients": [
                 "1 box white cake mix",
                 "1 cube butter",
@@ -200,6 +208,7 @@ export const recipes = [
         {
             "name": "Whole Wheat Bread",
             "servings": 24,
+            "keyword": "bread",
             "ingredients": [
                 "2 tablespoons active dry yeast",
                 "2 1/2 cups warm water",
@@ -223,6 +232,7 @@ export const recipes = [
         {
             "name": "Claudia's Corn Bread",
             "servings": 12,
+            "keyword": "bread",
             "ingredients": [
                 "1 1/2 cups flour",
                 "2/3 cup sugar",
@@ -246,6 +256,7 @@ export const recipes = [
         {
             "name": "Blender Pancakes",
             "servings": 4,
+            "keyword": "bread",
             "ingredients": [
                 "1 1/4 cups water or milk",
                 "1 cup whole wheat kernels",
@@ -266,6 +277,7 @@ export const recipes = [
         {
             "name": "Homemade Granola",
             "servings": 6,
+            "keyword": "snack",
             "ingredients": [
                 "2 cups old-fashioned oats",
                 "1/2 cup dried cranberries",
@@ -290,6 +302,7 @@ export const recipes = [
         {
             "name": "Homemade Flour Tortillas",
             "servings": 16,
+            "keyword": "bread",
             "ingredients": [
                 "2 1/2 cups all-purpose flour",
                 "2 1/2 teaspoons baking powder",
@@ -309,6 +322,7 @@ export const recipes = [
         {
             "name": "Sourdough Pizza Dough",
             "servings": 4,
+            "keyword": "bread",
             "ingredients": [
                 "350 g bread flour",
                 "75 g all-purpose flour",
@@ -331,6 +345,7 @@ export const recipes = [
         {
             "name": "Peanut Butter Protein Balls",
             "servings": 8,
+            "keyword": "snack",
             "ingredients": [
                 "1 cup oats",
                 "2/3 cup toasted coconut",
@@ -348,6 +363,7 @@ export const recipes = [
         {
             "name": "Chicken and White Bean Chili",
             "servings": 10,
+            "keyword": "main",
             "ingredients": [
                 "2 (15 oz) cans white beans, drained",
                 "4 cups cooked chicken, cubed",

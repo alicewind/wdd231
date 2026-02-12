@@ -242,6 +242,62 @@ main {
     margin: 0 auto;
 }
 
+/* Getting Started Page */
+
+.recipes {
+    margin: 1rem;
+}
+
+.recipes h2 {
+    text-align: center;
+}
+
+.types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    list-style: none;    
+    gap: .5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.all-button {
+    background-image: url("../images/pizza.webp");
+}
+
+.main-button {
+    background-image: url("../images/white-chicken-chili.webp");
+}
+
+.dessert-button {
+    background-image: url("../images/applesauce-cake.webp");
+}
+
+.bread-button {
+    background-image: url("../images/wheat-bread.webp");
+}
+
+.snack-button {
+    background-image: url("../images/granola.webp");
+}
+
+.types button {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 6px;
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+
 footer {
     display: block;
     background-color: var(--primary-color);    
