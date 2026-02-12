@@ -362,6 +362,7 @@ main {
 
 .recipe-card {
     background-color: var(--background-color);
+    font-weight: 700;
     border-radius: 6px;
     padding: 1rem;
     box-shadow: 0 2px 6px var(--primary-color);
