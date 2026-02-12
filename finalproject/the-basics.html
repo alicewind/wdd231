@@ -26,6 +26,7 @@
     <link rel="icon" href="favicon.ico">
 
     <script type="module" src="scripts/project.mjs"></script>
+    <script src="scripts/search.js" defer></script>
 </head>
 
 <body>
@@ -67,6 +68,13 @@
                 <div id="submission"></div>
             </form>
             <img src="images/question-dog.webp" alt="question dog" loading="lazy" width="300" height="400">
+        </section>
+        <section class="search">
+            <h2>Search Recipes</h2>
+            <input type="text" id="searchInput" placeholder="Search recipes "/>
+            <button id="searchButton" type="button">Search</button>
+            <button id="clearButton" type="button">Clear</button>
+            <div id="results"></div>
         </section>
     </main>
     <footer>
