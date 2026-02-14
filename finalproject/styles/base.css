@@ -395,6 +395,12 @@ footer p {
     margin-left: 0;
 }
 
+#video-demo {
+    text-decoration: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
 .social {
     display: flex;
     column-gap: 8px;
